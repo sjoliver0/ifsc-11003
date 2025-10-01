@@ -92,7 +92,7 @@
 
 <h4>Basketball Team Stats</h4>
 
-<table> <!--take out border-->
+<table>
       <caption>Starting 5 Statistics</caption>
       <tr><th scope="col">Name</th><th scope="col">Pts</th><th scope="col">Reb</th><th scope="col">Ast</th><th scope="col">Stl</th></tr>
     <tr><td>Marcus</td><td>24</td><td>8</td><td>6</td><td>2</td></tr>
