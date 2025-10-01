@@ -101,7 +101,7 @@
     <tr><td>Andre</td><td>12</td><td>12</td><td>2</td><td>0</td></tr>
     <tr><td>Chris</td><td>20</td><td>7</td><td>4</td><td>2</td></tr>
 
-    </table>
+</table>
 
 <h3>Stat Meanings</h3>
 
