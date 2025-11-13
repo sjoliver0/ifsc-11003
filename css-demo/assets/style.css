@@ -66,6 +66,8 @@ header.primary h2{
 }
 
 header.primary nav{
+  display:flex;
+  justify-content:space-between;
 }
 header.primary nav ul{
   padding:0;
