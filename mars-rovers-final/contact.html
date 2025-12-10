@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact the NASA Mars Rovers student project team." />
+  <title>NASA Mars Rovers — Contact</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="brand">
+        <img src="images/nasa-logo.png" alt="NASA logo" width="120" height="100" />
+        <div>
+          <h1>NASA Mars Rovers</h1>
+          <p class="tagline">Robotic Explorers on the Red Planet</p>
+        </div>
+      </div>
+
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mission-history.html">Mission History</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section aria-labelledby="contact-heading" class="hero">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>This website is a student project for educational purposes. Use the form below to send questions or feedback.</p>
+    </section>
+
+    <section class="contact-section" aria-label="Contact form">
+      <div class="rover-card" style="max-width:600px; margin:0 auto;">
+        <form action="mailto:sjoliver@ualr.edu" method="post" enctype="text/plain" class="contact-form">
+
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label for="name" style="display:block; margin-bottom:0.25rem;">Your Name</label>
+            <input type="text" id="name" name="name" required
+              style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid rgba(255,255,255,0.15); background:var(--bg); color:var(--text);" />
+          </div>
+
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label for="email" style="display:block; margin-bottom:0.25rem;">Your Email</label>
+            <input type="email" id="email" name="email" required
+              style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid rgba(255,255,255,0.15); background:var(--bg); color:var(--text);" />
+          </div>
+
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label for="message" style="display:block; margin-bottom:0.25rem;">Message</label>
+            <textarea id="message" name="message" rows="6" required
+              style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid rgba(255,255,255,0.15); background:var(--bg); color:var(--text);"></textarea>
+          </div>
+
+          <button type="submit"
+            style="padding:0.75rem 1.25rem; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
+      <p>Contact: <a href="mailto:sjoliver@ualr.edu">sjoliver@ualr.edu</a></p>
+      <p><small>&copy; Steven Oliver</small></p>
+    </div>
+  </footer>
+
+</body>
+</html>
